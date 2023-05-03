@@ -9,9 +9,33 @@ a{
     text-decoration: none;
 }
 
+ .logo{
+    display: flex;
+    justify-content: center;
+   
+}
+
 .container{
     max-width: 90%;
     margin: 0 auto;
+}
+
+.botones-platillos{ 
+    
+    padding: 2rem;
+    display: flex;
+   
+   
+  
+}
+.btn {
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+  
+    background-color: white;
+
+
 }
 
 .column-2.carta{
@@ -22,6 +46,8 @@ a{
      
     
 }
+
+
 
 .plato-carta{
     display: flex;
@@ -59,28 +85,16 @@ a{
     .img-plato-carta img{
         min-width: 100%;
         min-height: 100%;
-
-    }
-    
+    }   
 }
 
 
-.pie-pagina{
+.footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: 5rem;
-    background-color: rgb(107, 104, 104);
-    padding: 5rem;
-}
-@media(min-width:768px){
-    .contenedor-piepagina{
-        display: flex;
-        justify-content: space-between;
-    }
-
-}
-/* arreglar footer  */
-.copyright{
     text-align: center;
-    color: rgb(117, 29, 29);
-    padding-top: 50px;
-    font-size: 0.9rem;
-}
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    }

@@ -63,8 +63,9 @@ const mostrarPlatillos = (ensaladas, pastas, pizzas, postres, todos) =>{
         postres.forEach(postre=> contenedorPlatillos.appendChild(postre));
     });
     btnTodos.addEventListener('click',()=>{
-        limpiarHtml(contenedorPlatillos);
-        todos.forEach(todo=> contenedorPlatillos.appendChild(todo));
+        // limpiarHtml(contenedorPlatillos);
+        // todos.forEach(todo=> contenedorPlatillos.appendChild(todo));
+        location.reload();
     });
 }
 
